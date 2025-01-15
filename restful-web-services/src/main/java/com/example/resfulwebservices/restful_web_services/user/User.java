@@ -20,6 +20,10 @@ public class User {
 	@Past(message="Birth Date should be in past ")
 	private LocalDate birthDate;
 	
+	public User() {
+		
+	}
+	
 	public User(Integer id, String name, LocalDate birthDate) {
 		super();
 		this.id = id;
